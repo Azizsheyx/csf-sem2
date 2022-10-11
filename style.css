@@ -1,0 +1,45 @@
+body {
+	font-family: 'segoe UI', Roboto, Verdana, sans-serif;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+h1 {
+	font-size: 64px;
+	margin-top:2em;
+}
+
+h1 a {
+	color: #0070f3;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	text-decoration: underline;
+}
+body > p {
+	font-size: 24px;
+}
+
+.path {
+	font-family: monospace;
+	font-size: 20px;
+	background-color: #eaeaea;
+	padding: 5px 10px;
+	border-radius: 5px;
+}
+
+ul {
+	display: flex;
+	flex: 200px;
+	flex-direction: row;
+	flex-wrap: wrap;
+	flex-flow: row wrap;
+}
+
+.doc {
+	background-color: #ffffff;
+	padding: 5px 10px;
+	
+}
